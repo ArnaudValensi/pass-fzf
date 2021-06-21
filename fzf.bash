@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function candidates() {
-    find "$PREFIX" -name '*.gpg' -printf '%P\n' | sed -e 's:.gpg$::gi'
+    gfind "$PREFIX" -name '*.gpg' -printf '%P\n' | gsed -e 's:.gpg$::gi'
 }
 
 function candidate_selector_fzf() {
