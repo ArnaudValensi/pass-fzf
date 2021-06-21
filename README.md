@@ -4,6 +4,8 @@ finding in the store.
 
 requires `fzf` to be installed in the system.
 
+require `gfind` and `gsed` to be installed in the system (`brew install findutils`).
+
 # Installation
 Installation is done through `pass` extensions.
 ```
