@@ -1,4 +1,4 @@
-# pass-fzf
+# pass-fzf (compatible MacOS)
 An extension for [pass](https://www.passwordstore.org/) that allows fuzzy
 finding in the store.
 
