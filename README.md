@@ -10,7 +10,7 @@ require `gfind` and `gsed` to be installed in the system (`brew install findutil
 Installation is done through `pass` extensions.
 ```
 mkdir -p $PASSWORD_STORE_DIR/.extensions/
-wget https://raw.githubusercontent.com/ficoos/pass-fzf/master/fzf.bash -O $PASSWORD_STORE_DIR/.extensions/fzf.bash
+wget https://raw.githubusercontent.com/ArnaudValensi/pass-fzf/master/fzf.bash -O $PASSWORD_STORE_DIR/.extensions/fzf.bash
 chmod +x $PASSWORD_STORE_DIR/.extensions/fzf.bash
 PASSWORD_STORE_ENABLE_EXTENSIONS=true pass fzf
 ```
